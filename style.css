@@ -1,0 +1,46 @@
+.myslide {
+    display: none;
+}
+.center {
+    background-color: bisque;
+    font-size: 25px;
+}
+.background {
+
+  position: relative;
+  height: 418px;
+  /* width: 100%; */
+  /* display: flex; */
+  background-size: cover;
+  opacity: .5; 
+  background-image:
+   linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,05)),url("./94040748-programming-code-abstract-technology-background-of-software-developer-and-computer-script.jpg");
+}
+.background::before {
+    content: "";
+    /* background-size: cover; */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
+}
+.background p {
+    position: relative;
+    color: white;  
+    font-size: 20px;
+    line-height: 0.9;
+    /* text-align: center; */
+}
+.grad1 {
+    height: 200px;
+    background-color: #cccccc;
+    background-image: linear-gradient(rgb(12, 12, 112), rgb(76, 85, 116));
+  }
+.margin {
+    height: 200px;
+    background-color: #cccccc;
+    background-image: linear-gradient(rgb(12, 12, 112), rgb(76, 85, 116));
+}
+
